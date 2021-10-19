@@ -1,3 +1,4 @@
+ /*fonts*/
  h1{
   font-family: 'Kirang Haerang', cursive;
   font-size: 3em;
@@ -6,13 +7,18 @@
   font-family: 'Kirang Haerang', cursive;
   font-size: 1.6em;
  }
+
  p{
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 0.9em;
  }
+ 
+ /*header styling*/
  .header {
 border-bottom: black;
  }
+ 
+ /*nav dropdown menu*/
  ul {
   list-style-type: none;
   margin: 0;
@@ -26,13 +32,13 @@ li {
 }
 
 li a, .dropbtn {
-  display: inline-block;
+  display: flex;
   color: white;
   text-align: center;
   padding: 14px 35px;
   text-decoration: none;
   font-family: 'Kirang Haerang', cursive;
-  font-size: 120%;
+  font-size: 135%;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -66,6 +72,7 @@ li.dropdown {
   display: block;
 }
 
+/*footer styling*/
 .site-footer
 {
   background-color:black;
@@ -109,6 +116,7 @@ li.dropdown {
     
   }
 
+  /*div & item alignment*/
   .flex-container {
     display: flex;
     flex-direction: row;
@@ -122,11 +130,13 @@ li.dropdown {
     margin-right:  120px;
     padding: 20px;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     
   }
  
-
+.center {
+  justify-content: center;
+}
  .img-container {
   float: left;
   width: 33.33%;
